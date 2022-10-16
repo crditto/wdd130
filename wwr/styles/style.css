@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Rock+Salt&display=swap');
 body {
     background-color: white;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;   
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #3a506b;
 }
 nav {
     background-color: #0b132b;
+    margin-top: 35px;
 }
 nav a {
     background-color: #0b132b;
     color: #5bc0be;
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 #content {
     max-width: 1600px;
@@ -23,9 +34,13 @@ nav a:hover {
 }
 h4 {
     color: #c02020;
+    font-family: Rock Salt, Helvetica, sans-serif;
 }
-.home-title{
+.home-title {
     color: #c02020;
+    font-family: Rock Salt, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -40,22 +55,26 @@ h4 {
     text-align: center;
 }
 .msg h2{
-    color: #c02020;
+    color:#5bc0be;
+    font-family: Rock Salt, Helvetica, sans-serif;
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 #background {
     background-color: #5bc0be;
     height: 725px;
 }
-.book {
+.book, .join {
     background-color: #5bc0be;
     text-decoration: none;
-}
-.join {
-    background-color: #5bc0be;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #6fffe9;
@@ -66,13 +85,19 @@ main section {
 .msg {
     background-color: #3a506b;
     color: #6fffe9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg p {
     color: #6fffe9;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #0b132b;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -87,12 +112,28 @@ footer a {
     color:white;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
 footer a:hover {
     color:white;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+.mountains {
+    margin: 75px;
 }
