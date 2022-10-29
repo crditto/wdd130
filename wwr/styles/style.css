@@ -12,15 +12,13 @@ h2 {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #3a506b;
+    background-color:rgba(0, 0, 50, 0.5);
 }
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #0b132b;
 }
 nav a {
-    background-color: #0b132b;
     color: #5bc0be;
     text-decoration: none;
     text-align: center;
@@ -183,7 +181,7 @@ footer a:hover {
     grid-row: 2/3;
 }
 .card-img {
-    border: 10px solid black;
+    border: 10px solid#0b132b;
     width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
