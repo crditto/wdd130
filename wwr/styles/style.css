@@ -174,6 +174,41 @@ main section img {
     font-size: .8em;
     padding-bottom: 15px;
 }
+.basin-title {
+    color: white;
+    font-family: Rock Salt, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#basin {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#basin-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#basin-img {
+    width: 100%;
+    height: 900px;
+}
+#basin-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px   
+}
+#basin-msg h1 {
+    text-align: center;
+}
+#basin-msg h4 {
+    text-align: center;
+}
+.basin-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 footer {
     background-color: #0b132b;
     color: white;
