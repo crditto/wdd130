@@ -40,7 +40,7 @@ h4 {
 #river {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -310px;
+    margin-top: -510px;
 }
 #river-box {
     grid-column: 1/4;
@@ -277,6 +277,7 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    margin-top: 100px;
 }
   
 ul {
