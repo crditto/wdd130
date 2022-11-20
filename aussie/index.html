@@ -42,6 +42,28 @@
                 <img src="https://github.com/crditto/wdd130/raw/master/aussie/images/asfrisbe.jpg" alt="Australian Shepherd Frizbee" width="900" height="600">
                 <img id="home-img" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy5.jpg" alt="Aussie Puppies">
             </div>
+            <div id="feedback">
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                      <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                      </li>
+                      <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email" />
+                      </li>
+                      <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                      <li class="button">
+                        <button type="submit">Send your message</button>
+                      </li>
+                    </ul>
+                </form>
+              </div>
+        </main>
         <footer>
             <p>American Aussies &copy; 2022 - Christopher Ditto</p>
             <p><a href="site-plan.html">Site Plan</a></p>
@@ -57,7 +79,6 @@
                     <img src="https://github.com/crditto/wdd130/raw/master/aussie/images/instagram.png" alt="instagram icon">
                 </a>
             </div>
-        </main>
         </footer>
     </div>       
 </body>
