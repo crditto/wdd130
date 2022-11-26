@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Rock+Salt&display=swap');
 body {
-    background-color: white;
+    background-color: #F9FBB2;
     font-family: Rock Salt, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -12,14 +12,14 @@ h2 {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color:rgba(0, 0, 50, 0.5);
+    background-color:#F8FCDA;
 }
 nav {
     display: flex;
     justify-content: space-around;
 }
 nav a {
-    color: #5bc0be;
+    color: #7C6354;
     text-decoration: none;
     text-align: center;
     padding: 35px;
@@ -29,12 +29,12 @@ nav a {
     margin: 0 auto;
 }
 nav a:hover {
-    background-color: #5bc0be;
-    color: #0b132b;
+    background-color: #E3E9C2;
+    color: #7C6354;
     text-align: center;
 }
 h4 {
-    color: white;
+    color: #7C6354;
     font-family: Rock Salt, Helvetica, sans-serif;
 }
 .home-title {
