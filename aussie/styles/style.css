@@ -12,7 +12,7 @@ h2 {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color:#F8FCDA;
+    background-color: rgb(248,252,218);
 }
 .logo {
     width: 125px;
@@ -104,44 +104,48 @@ main section img {
     box-sizing: border-box;
 }
 #background {
-    background-color: #5bc0be;
-    height: 725px;
-    grid-column: 1/11;
-    grid-row: 4/9;
+    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/wood.jpg");
+    z-index: -1;
+}
+#background2 {
+    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/leather.jpg");
+    margin-top: -25px;
+    margin-bottom: -45px;
+    z-index: -1;
 }
 .aussie-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .frisbee-card {
-    margin: 50px 0;
+    margin: 25px 0;
     grid-column: 2/6;
     grid-row: 1/2;
 }
 .icon1-card {
-    margin: 50px 0;
+    margin: 25px 0;
     margin-top: 125px;
     grid-column: 8/10;
     grid-row: 1/2;
 }
 .icon2-card {
-    margin: 50px 0;
+    margin: 25px 0;
     margin-top: 100px;    
     grid-column: 3/5;
     grid-row: 2/3;
 }
 .puppy-card {
-    margin: 50px 0;
+    margin: 25px 0;
     grid-column: 7/11;
     grid-row: 2/3;
 }
 .running-card {
-    margin: 50px 0;
+    margin: 25px 0;
     grid-column: 2/6;
     grid-row: 4/6;
 }
 .icon3-card {
-    margin: 50px 0;
+    margin: 25px 0;
     margin-top: 100px;
     grid-column: 8/10;
     grid-row: 4/6;
