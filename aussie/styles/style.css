@@ -103,11 +103,11 @@ main section {
 main section img {
     box-sizing: border-box;
 }
-#background {
+#background2 {
     background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/wood.jpg");
     z-index: -1;
 }
-#background2 {
+#background {
     background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/leather.jpg");
     margin-top: -25px;
     margin-bottom: -45px;
