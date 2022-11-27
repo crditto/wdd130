@@ -103,12 +103,12 @@ main section {
 main section img {
     box-sizing: border-box;
 }
-#background {
-    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/wood.jpg");
-    z-index: -1;
-}
 #background2 {
     background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/leather.jpg");
+    z-index: -1;
+}
+#background {
+    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/wood.jpg");
     margin-top: -25px;
     margin-bottom: -45px;
     z-index: -1;
@@ -123,14 +123,12 @@ main section img {
     grid-row: 1/2;
 }
 .icon1-card {
-    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/leather.jpg");
     margin: 25px 0;
     margin-top: 125px;
     grid-column: 8/10;
     grid-row: 1/2;
 }
 .icon2-card {
-    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/leather.jpg");
     margin: 25px 0;
     margin-top: 100px;    
     grid-column: 3/5;
@@ -147,7 +145,6 @@ main section img {
     grid-row: 4/6;
 }
 .icon3-card {
-    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/leather.jpg");
     margin: 25px 0;
     margin-top: 100px;
     grid-column: 8/10;
