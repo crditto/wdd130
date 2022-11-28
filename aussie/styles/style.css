@@ -78,7 +78,7 @@ h4 {
 }
 #home-img {
     width: 100%;
-    opacity: .8;
+    opacity: .9;
 }
 #home-msg h1 {
     text-align: center;
@@ -110,9 +110,8 @@ main section img {
 }
 #background {
     background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/wood.jpg");
+    background-size: 100% 100%;
     background-color: #F9FBB2;
-    margin-bottom: -45px;
-    margin-top: -25px;
     z-index: -1;
 }
 .aussie-grid{
