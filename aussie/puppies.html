@@ -7,9 +7,10 @@
     <title>Puppies</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body id="background">
+    <script src="modal.js"></script>
     <div id="content">
-        <header>
+        <header id="background2">
             <a id="logo_link" href="index.html">
                 <img class="logo"
                     src="https://github.com/crditto/wdd130/raw/master/aussie/images/american_aussie.png"
@@ -28,8 +29,7 @@
                     <img id="home-img" src="https://github.com/crditto/wdd130/raw/master/aussie/images/asbanner2.jpg" alt="Lazy Dog">
                 </div>
                 <section id="home-msg">
-                    <h1 class="home-title">Welcome to American Aussies</h1>
-                    <h4>Proud Breeders of Australian Shepards</h4>
+                    <h1 class="home-title">Puppies</h1>
                     <p>We do not hold with out a deposit which is $500 and goes towards the total cost of the puppy. We constantly have our pre deposit list going for our puppies and we rarely make it off our list. 
                         Our pre deposit list is the only way we do our waitlist and it is $500. Deposits are non refundable</p>
                     <p>Prices</p>
@@ -38,30 +38,42 @@
                 </section>
             </div>
             <div>
+                <section id="home-msg"> 
+                    <h4>AKC/ASCA eligible Australian Shepherd Puppies</h4>
+                    <p>Born: July 30, 2022</p> 
+                    <p>Can leave now, they have had:</p>
+                    <p>Their first 2 puppy vaccines.</p>
+                    <p>*Regularly dewormed</p>
+                    <p>*Health exam and report card from our vet</p>
+                    <p>*Tails docked, dew claws intact.</p>
+                    <p>*Well socialized</p>
+                    <p>*Doing well with potty training</p>
+                    <p>Parents have been fully health tested. Results are posted on our website.</p>
+                    <p>Please, message us with any questions. We do still need to work down our pre deposit list.</p>
+                    <br>
+                    <p>Available Puppies.</p> 
+                    <p>Sire and Dam: Chinook and Dakota</p>
+                    <p>Female Blue Merle born September 2, 2022 Brown eyes</p>
+                    <img id="myImg" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy.jpg" alt="Lazy Dog" style="width:100%;max-width:300px">
+                    <p>Male Blue Merle born September 2, 2022 Double blue eyes</p>
+                    <img id="myImg" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy2.jpg" alt="Lazy Dog" style="width:100%;max-width:300px">
+                    <p>Female Red Merle born September 2, 2022, Double blue eyes</p>
+                    <img id="myImg" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy3.jpg" alt="Lazy Dog" style="width:100%;max-width:300px">
+                    <p>Female Black Tri born September 2, 2022 Brown eyes</p>
+                    <img id="myImg" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy4.jpg" alt="Lazy Dog" style="width:100%;max-width:300px">
+                                        <!-- The Modal -->
+                    <div id="myModal" class="modal">
 
-                <p>AKC/ASCA eligible Australian Shepherd Puppies</p>
-                <p>Born: July 30, 2022</p> 
-                <p>Can leave now, they have had:</p>
-                <p>Their first 2 puppy vaccines.</p>
-                <p>*Regularly dewormed</p>
-                <p>*Health exam and report card from our vet</p>
-                <p>*Tails docked, dew claws intact.</p>
-                <p>*Well socialized</p>
-                <p>*Doing well with potty training</p>
-                <p>Parents have been fully health tested. Results are posted on our website.</p>
-                <p>Please, message us with any questions. We do still need to work down our pre deposit list.</p>
-                <br>
-                <p>Available Puppies.</p> 
-                <p>Sire and Dam: Chinook and Dakota</p>
-                <p>Female Blue Merle born September 2, 2022 Brown eyes</p>
-                <img id="home-img" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy.jpg" alt="Lazy Dog">
-                <p>Male Blue Merle born September 2, 2022 Double blue eyes</p>
-                <img id="home-img" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy2.jpg" alt="Lazy Dog">
-                <p>Female Red Merle born September 2, 2022, Double blue eyes</p>
-                <img id="home-img" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy3.jpg" alt="Lazy Dog">
-                <p>Female Black Tri born September 2, 2022 Brown eyes</p>
-                <img id="home-img" src="https://github.com/crditto/wdd130/raw/master/aussie/images/aspuppy4.jpg" alt="Lazy Dog">
-              </p>
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+  
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img01">
+  
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                    </div>
+                </section>
             </div>
         </main>
         <footer>
