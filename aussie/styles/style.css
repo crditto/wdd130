@@ -341,13 +341,13 @@ button {
     border: 5px solid#E3E9C2;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
- } 
+} 
 #myImg4:hover {opacity: 0.7;
     transform: scale(1.1);
 }
   
   /* The Modal (background) */
-  .modal {
+.modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -359,18 +359,18 @@ button {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
+}
   
   /* Modal Content (Image) */
-  .modal-content {
+.modal-content {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
-  }
+}
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
+#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -379,21 +379,133 @@ button {
     color: #ccc;
     padding: 10px 0;
     height: 150px;
-  }
+}
   
   /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
+.modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
-  }
-  
-  @keyframes zoom {
+}
+
+.sire_dam_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: #241C19;
+    font-size: large;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+.sire1_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 350px; 
+}
+
+.sire2_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 1/2;
+    width: 350px; 
+}
+
+.sdescription1_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 2/3; 
+}
+
+.sdescription2_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 2/3; 
+}
+
+.sire3_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    width: 350px; 
+}
+
+.sire4_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 3/4;
+    width: 350px; 
+}
+
+.sdescription3_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 4/5; 
+}
+
+.sdescription4_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 4/5; 
+}
+
+.dam1_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 5/6;
+    width: 350px; 
+}
+
+.dam2_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 5/6;
+    width: 350px; 
+}
+
+.ddescription1_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 6/7; 
+}
+
+.ddescription2_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 6/7; 
+}
+
+.dam3_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 7/8;
+    width: 350px; 
+}
+
+.dam4_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 7/8;
+    width: 350px; 
+}
+
+.ddescription3_card {
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 8/9; 
+}
+
+.ddescription4_card {
+    margin: auto;
+    grid-column: 6/10;
+    grid-row: 8/9; 
+}
+@keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
-  }
+}
   
-  /* The Close Button */
-  .close {
+/* The Close Button */
+.close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -401,14 +513,14 @@ button {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-  }
+}
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
 @media screen and (max-width: 900px) {
     #home, .home-grid, .aussie-grid {
