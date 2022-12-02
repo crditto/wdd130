@@ -38,8 +38,9 @@ nav a {
     color: #241C19;
     text-decoration: none;
     text-align: center;
-    font-size: 1.5em;
-    padding: 55px;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 40px;
 }
 #content {
     max-width: 1600px;
@@ -241,6 +242,61 @@ textarea {
 button {
     margin-left: 0.5em;
 }
+.puppy-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    color: #241C19;
+    font-size: large;
+    font-family: Raleway, Helvetica, sans-serif;
+}
+.description1_card {
+    margin: auto;
+    grid-column: 2/6;
+    grid-row: 1/2; 
+}
+.puppy1_card {
+    margin: auto;
+    grid-column: 7/10;
+    grid-row: 1/2;
+    width: 500px;
+}
+
+.puppy2_card {
+    margin: auto;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    width: 350px;  
+}
+.description2_card {
+    margin: auto;
+    grid-column: 7/10;
+    grid-row: 2/3;
+}
+
+.description3_card {
+    margin: auto;
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+.puppy3_card {
+    margin: auto;
+    grid-column: 7/10;
+    grid-row: 3/4;
+    width: 350px;  
+}
+.puppy4_card {
+    margin: auto;
+    grid-column: 3/6;
+    grid-row: 4/5;
+    width: 350px;   
+}
+.description4_card {
+    margin: auto;
+    grid-column: 7/10;
+    grid-row: 4/5;
+}
+
 /* Style the Image Used to Trigger the Modal */
 #myImg1 {
     border-radius: 5px;
