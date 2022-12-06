@@ -124,6 +124,11 @@ main section img {
     background-color: #F9FBB2;
     z-index: -1;
 }
+#background3 {
+    background-image: url("https://github.com/crditto/wdd130/raw/master/aussie/images/leather.jpg");
+    background-color: rgb(248,252,218);
+    z-index: -1;
+}
 .aussie-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
