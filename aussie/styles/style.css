@@ -436,13 +436,13 @@ button {
 .sire3_card {
     grid-column: 1/3;
     width: 350px; 
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 .sire4_card {
     grid-column: 6/10;
     width: 350px; 
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 .dams_title {
